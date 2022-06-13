@@ -1,0 +1,173 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 58px;
+    background-color: #F1FAEE;
+}
+
+.header{
+background-color: #1D3557;
+color: #FFFFFF;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+border-radius: 10px;
+width: 225px;
+margin: auto auto;
+margin-bottom: 21px
+}
+.subhead{
+    background-color: #457B9D;
+color: #FFFFFF;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 18.72px;
+border-radius: 10px;
+width: 355px;
+margin: auto auto;
+margin-bottom: 187px
+}
+
+.sidekick{
+    padding-top: 177px;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background-image: url("images/wallpaper.jpg");
+    margin-top: 0;
+    background-size: cover;
+    height: 500px;
+    top: 0px; 
+}
+
+.zuma{   
+border-radius: 50%;
+}
+
+.zz{
+border-radius: 50%;
+}
+
+.pp{
+    border-radius: 50%;
+    width: 103.97px;
+height: 103.97px;
+}
+
+.jj{
+    width: 103.97px;
+height: 103.97px;
+border-radius: 50%;
+}
+
+.desc1{
+    width: 198px;
+height: 55px;
+left: 34px;
+top: 230px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+}
+
+.desc2{
+    width: 198px;
+height: 55px;
+
+top: 230px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+}
+.desc3{
+    width: 198px;
+height: 55px;
+left: 34px;
+top: 230px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #1D3557;
+}
+
+.parkhead{
+    position: absolute;
+width: 162px;
+height: 35px;
+left: 283px;
+top: 180px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+}
+.card {
+    width: 400px;
+    height: 294px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    margin-top: 58px;
+    margin-bottom: 50px;;
+    justify-content: space-around;
+    text-align: center;
+    background:#A8DADC;
+    color: #1D3557;
+    border-bottom: 6px groove #e6f2ff;
+    border-radius: 25px;
+}
+
+.me{
+    width: 180px;
+    height: 300px;
+    top: 73px;
+}
+
+.guide{
+    font-size: 24px;
+}
+
+.nom{
+    font-size: 19px;
+}
